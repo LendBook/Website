@@ -1,0 +1,60 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.background {
+  background: linear-gradient(109.6deg, rgba(227, 236, 62, 0.68) 11.2%, rgba(230, 29, 58, 0.78) 91.3%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  animation: backgroundAnimation 5s infinite alternate;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  transition: opacity 1s ease-in-out;
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 20px;
+
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  object-fit: contain;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+
+
+.title {
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+/* Ajoutez le style suivant à votre fichier CSS */
+
+.icon:hover {
+  transform: scale(1.2); /* Ajustez la valeur selon vos besoins */
+  transition: transform 0.3s ease-in-out; /* Ajustez la durée et l'effet de transition */
+}
+
+
