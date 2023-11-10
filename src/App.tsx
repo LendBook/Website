@@ -102,7 +102,7 @@ const App = () => {
                         alt="GitHub"
                     />
                 </a>
-                <a href="mailto:hello@lendbook.io" target="_blank" rel="noopener noreferrer">
+                <a href="mailto:contact@lendbook.org" target="_blank" rel="noopener noreferrer">
                     <animated.img
                         className="icon mail"
                         style={emailProps}
