@@ -9,7 +9,7 @@
 }
 
 .background {
-  background: linear-gradient(109.6deg, rgba(227, 236, 62, 0.68) 11.2%, rgba(230, 29, 58, 0.78) 91.3%);
+  background: linear-gradient(109.6deg, rgb(59, 95, 160) 11.2%, rgb(40, 62, 101) 91.3%);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -47,6 +47,7 @@
 .title {
   text-align: center;
   font-family: 'Libre Franklin', sans-serif;
+  color: white;
 }
 
 
